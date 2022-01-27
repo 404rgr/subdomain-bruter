@@ -53,8 +53,7 @@ class SubdoScan:
     
     async def run(self, domain):
         try:
-            subdomains = open(self.wordlist, 'r').read().splitlines() # ['tools', 'cpanel', 'admin', 'kosong', "anjay"]
-            subdomains = ['tools', 'www', 'aas']
+            subdomains = open(self.wordlist, 'r').read().splitlines()
             self.subdomains_length = len(subdomains)
             print("{}[{}] Subdomains List Loaded\n".format(cyan, self.subdomains_length));
         except:
