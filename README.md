@@ -17,5 +17,24 @@ pip install aiohttp
 
 #### Run
 ```
-python run.py
+python run.py -u [domain]
+```
+
+```
+__    _   _  _ _    _ B                                                                                                                                                
+ _   _        _   _   R                                                                                                                                                
+   _   _  _ _    _    U                                                                                                                                                
+* S U B D O M A I N * T                                                                                                                                                
+ _   __  _ __ _  _    E                                                                                                                                                
+  ____    __ __ _  _  R                                                                                                                                                
+  V1.0                                                                                                                                                                 
+
+usage: run.py [-h] [-u URL] [-w WORDLIST] [-o OUTPUT]
+
+optional arguments:
+  -h, --help   show this help message and exit
+  -u URL       URL
+  -w WORDLIST  Costume Wordlist. Default wordlist.txt
+  -o OUTPUT    save the obtained subdomain results. default is not saved
+
 ```
